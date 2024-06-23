@@ -37,4 +37,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Prisma Setup
 
-npx prisma init --datasource-provider sqlite
+`npx prisma init --datasource-provider sqlite`
+
+Create the SQLite database and the tables represented by the models
+`npx prisma migrate dev --name init`
