@@ -41,3 +41,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 Create the SQLite database and the tables represented by the models
 `npx prisma migrate dev --name init`
+
+## ShadCN components
+These were added to the project using the following command:
+`npx shadcn-ui@latest init`
+
+This command updates the tailwind.config.ts file with settings for shadcn components. It adds the lib/utils.ts file which gives the cn() function that makes it easier to merge certain classNames.
