@@ -1,4 +1,6 @@
+// add the below for Next.js since hooks are being used in this component
 'use client';
+
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { ComponentProps, ReactNode } from 'react';

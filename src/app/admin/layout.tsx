@@ -1,6 +1,9 @@
 import { ReactNode } from 'react';
 import { Nav, NavLink } from '@/components/Nav';
 
+// force Next.js to not cache any Admin pages
+export const dynamic = 'force-dynamic';
+
 const AdminLayout = ({ children }: Readonly<{ children: ReactNode }>) => {
   return (
     <>
